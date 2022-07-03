@@ -53,7 +53,7 @@ global.footer = '©ＡＦＹＯＯＮ　竹以岡.'
 
 global.ig = 'Nothing...'
 
-global.region = '*╚═══❖•ೋ° ＡＦＹＯＯＮ　竹以岡  °ೋ•❖═══╝*'
+global.region = '*╚═══❖•ೋ°【ＡＦＹＯＯＮ】°ೋ•❖═══╝*'
 
 global.sc = 'Nothing...'
 
