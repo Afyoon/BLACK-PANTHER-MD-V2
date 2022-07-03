@@ -49,7 +49,7 @@ global.ownername = 'ＡＦＹＯＯＮ　竹以岡'
 
 global.botname = 'ＡＦＹＯＯＮ　竹以岡'
 
-global.footer = '©ＡＦＹＯＯＮ　竹以岡.'
+global.footer = '©ＡＦＹＯＯＮ'
 
 global.ig = 'Nothing...'
 
