@@ -65,7 +65,7 @@ global.author = 'ＡＦＹＯＯＮ　竹以岡'
 
 global.sessionName = 'session'
 
-global.prefa = ['','!','.','❄','🖤','☃']
+global.prefa = ['','!','.','❄','✦','☃']
 
 global.sp = '◈'
 
