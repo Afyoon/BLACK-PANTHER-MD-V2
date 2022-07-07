@@ -1770,13 +1770,9 @@ break
                                     displayText: '🎀Menu🎀',
                                     id: 'menu'
                                 }
-                            }, {
-                                quickReplyButton: {
-                                    displayText: '🧚Black Panther Owner🖤',
-                                    id: 'owner'
-                                }
+                            }, 
                             }]
-                      let txt = `◤ GOJO-SATORU HERE🎉 ◢\n\n${text}`
+                      let txt = `◤ ＡＦＹＯＯＮ　演可フ🎉 ◢\n\n${text}`
                       GojoMdNx.send5ButImg(i, txt, GojoMdNx.user.name, global.thumb, btn)
                     }
                 reply(`Successful Sending Broadcast To ${anu.length} Group(s)`)
@@ -1791,7 +1787,7 @@ break
 		    await sleep(1500)
 		    let btn = [{
                                 urlButton: {
-                                    displayText: '♡Black Panther🖤',
+                                    displayText: 'ＡＦＹＯＯＮ　演可フ',
                                     url: `${sc}`
                                 }
                             }, {
@@ -2088,16 +2084,16 @@ break
                     image: { url: anu.thumbnail },
                     caption: `
 ╔═════ೋೋ═════╗
-   🧚𝗕𝗹𝗮𝗰𝗸 𝗣𝗮𝗻𝘁𝗵𝗲𝗿 𝗕𝗼𝘁🖤
-🖤 Title : ${anu.title} 🧚
-🖤 Ext : Search 🧚
-🖤 ID : ${anu.videoId} 🧚
-🖤 Duration : ${anu.timestamp} 🧚
-🖤 Viewes : ${anu.views} 🧚
-🖤 Uploaded On : ${anu.ago} 🧚
-🖤 Author : ${anu.author.name} 🧚
-🖤 Channel : ${anu.author.url} 🧚
-🖤 Description : ${anu.description} 🧚
+   ＡＦＹＯＯＮ　演可フ
+🖤 Title : ${anu.title} 
+🖤 Ext : Search 
+🖤 ID : ${anu.videoId} 
+🖤 Duration : ${anu.timestamp} 
+🖤 Viewes : ${anu.views} 
+🖤 Uploaded On : ${anu.ago} 
+🖤 Author : ${anu.author.name} 
+🖤 Channel : ${anu.author.url}
+🖤 Description : ${anu.description} 
 🖤 Url : ${anu.url}`,
                     footer: GojoMdNx.user.name,
                     buttons: buttons,
@@ -2831,12 +2827,12 @@ case 'webtonsearch': case 'webtoon':
 		        image: { url: anu.author.profilePic },
 			caption: `
 ╔═════ೋೋ═════╗
- 🖤𝗕𝗹𝗮𝗰𝗸 𝗣𝗮𝗻𝘁𝗵𝗲𝗿 𝗕𝗼𝘁🧚
-🖤 Title : ${anu.title} 🧚
-🖤 Author : ${anu.author.name} 🧚
-🖤 Like : ${anu.like} 🧚
-🖤 Caption : ${anu.caption} 🧚
-🖤 Url : ${anu.media[0]} 🧚
+ 卂千ㄚㄖㄖ几
+✦ Title : ${anu.title} 
+✦ Author : ${anu.author.name} 
+✦ Like : ${anu.like} 
+✦ Caption : ${anu.caption} 
+✦ Url : ${anu.media[0]} 
 To Download Media, Please Click One Of The Buttons Below Or Enter The ytmp3/ytmp4 Command With The Url Above
 `,
 			footer: GojoMdNx.user.name,
@@ -2846,7 +2842,7 @@ To Download Media, Please Click One Of The Buttons Below Or Enter The ytmp3/ytmp
 		    GojoMdNx.sendMessage(m.chat, buttonMessage, { quoted: m })
 		} else if (anu.type == 'image') {
 		    anu.media.map(async (url) => {
-		        GojoMdNx.sendMessage(m.chat, { image: { url }, caption: `🖤 Title : ${anu.title}\n🖤 Author : ${anu.author.name}\n🖤 Like : ${anu.like}\n🖤 Caption : ${anu.caption}` }, { quoted: m })
+		        GojoMdNx.sendMessage(m.chat, { image: { url }, caption: `✦ Title : ${anu.title}\n✦ Author : ${anu.author.name}\n✦ Like : ${anu.like}\n✦ Caption : ${anu.caption}` }, { quoted: m })
 		    })
 		}
 	    }
@@ -3375,30 +3371,25 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 └┬──────────────┈ ⳹
    │✑  Please Select The Button Below
    └───────────────┈ ⳹
-🖤𝗕𝗹𝗮𝗰𝗸 𝗣𝗮𝗻𝘁𝗵𝗲𝗿 𝗠𝗗🧚`,
+✦ＡＦＹＯＯＮ　演可フ`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube💦',
+                                    displayText: 'YouTube',
                                     url: `${myweb}`
                                 }
-                            }, {
-                            	urlButton: {
-                                displayText: '♡Black Panther🖤',
-                                    url: `${sc}`
-                                }
-                            }, {
+                                }, {
                                 quickReplyButton: {
-                                    displayText: 'All Menu🎉',
+                                    displayText: 'All Menu',
                                     id: `${prefix}allmenu`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: 'List Menu⭐',
+                                    displayText: 'List Menu',
                                     id: `${prefix}command`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: 'Owner🖤',
+                                    displayText: 'Owner',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3769,7 +3760,7 @@ case 'allmenu': {
 ┋⫸${prefix}masasubur (indo)
 ┋⫸${prefix}zodiak (indo)
 ┋⫸${prefix}shio (indo)
-┋╚═══════✍︎🖤𝗕𝗹𝗮𝗰𝗸 𝗣𝗮𝗻𝘁𝗵𝗲𝗿 𝗠𝗗🧚
+┋╚═══════✍︎ＡＦＹＯＯＮ　演可フ
 ┗┄◤ *Created By ${ownername}*  𖠌◢┄◈`
     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -3784,9 +3775,7 @@ case 'allmenu': {
                                     url: `${myweb}`
                                 }
                             }, {
-                                quickReplyButton: {
-                                    displayText: '🧚Black Panther Owner🖤',
-                                    id: `${prefix}owner`
+                              
                                 }
                             }]
                         }
@@ -3843,7 +3832,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┋⫸${prefix}checkvote
 ┋⫸${prefix}delvote
 ┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
+┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡ＡＦＹＯＯＮ　演可フ🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "ＡＦＹＯＯＮ　演可フ","id": 'owner'}}] )
 break
 
 case 'rpgmenu':
